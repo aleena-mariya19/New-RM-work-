@@ -1,0 +1,46 @@
+class Student:
+    def __init__(self, name, grade):
+        self.name = name
+        self.grade = grade
+
+    def display(self):
+        print(f"Name: {self.name}, Grade: {self.grade}")
+
+# Create an object
+student1 = Student("Alice", "A")
+student2 = Student("malavika","B")
+student1.display()
+student2.display()
+
+Name: Alice, Grade: A
+Name: malavika, Grade: B
+
+consumercase :- collab code work
+class Consumer:
+    def __init__(self, age, income, gender):
+        self.age = age
+        self.income = income
+        self.gender = gender
+
+    def display(self):
+        print(f"Age: {self.age}, Income: {self.income}, Gender: {self.gender}")
+
+# Creating 5 consumer objects
+consumer1 = Consumer(25, 45000, "Male")
+consumer2 = Consumer(30, 52000, "Female")
+consumer3 = Consumer(22, 38000, "Male")
+consumer4 = Consumer(28, 60000, "Female")
+consumer5 = Consumer(35, 72000, "Other")
+
+# Displaying all consumers
+consumer1.display()
+consumer2.display()
+consumer3.display()
+consumer4.display()
+consumer5.display()
+
+Age: 25, Income: 45000, Gender: Male
+Age: 30, Income: 52000, Gender: Female
+Age: 22, Income: 38000, Gender: Male
+Age: 28, Income: 60000, Gender: Female
+Age: 35, Income: 72000, Gender: Other
